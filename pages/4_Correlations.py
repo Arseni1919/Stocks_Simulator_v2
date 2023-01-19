@@ -12,7 +12,7 @@ from globals import *
 # ------------------------------------------------------------------------------------------------------------ #
 @st.cache(allow_output_mutation=True)
 def get_sample_data():
-    name = 'data_for_Correl.pickle'
+    name = 'data_for_Correl3.pickle'
     with open(name, 'rb') as f:
         curr_data = pickle.load(f)
         for day_data_df in curr_data:
@@ -86,8 +86,14 @@ st.plotly_chart(fig)
 
 st.write(f"""
 ## Analysis
-### VIXY
-Very interesting why... 
+- SHY - short Gov. bonds
+- TLT - long gov. bonds
+- QQQ - ETF stock
+- VIXY - short options on SPY (volume is important)
+- LQD - long corp. bonds
+- GOVT - treasury medium
+- IEF - 7-10 years treasury
+- 
 
 $\\alpha$
 """)
