@@ -93,7 +93,7 @@ st.write(f"""
 - LQD - long corp. bonds
 - GOVT - treasury medium
 - IEF - 7-10 years treasury
-- 
+- IAU - gold
 
 $\\alpha$
 """)
