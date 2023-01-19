@@ -80,8 +80,8 @@ st.write("""
 st.write(f'## Day correlation matrix:')
 
 color = st.select_slider('Select a day:', options=[i for i in range(len(data))])
-
-fig = px.imshow(data[color].corr(), text_auto=True)
+# st.write(data[0].columns)
+fig = px.imshow(data[color].corr(), text_auto=True, zmin=-1, zmax=1)
 st.plotly_chart(fig)
 
 st.write(f"""
