@@ -1,4 +1,4 @@
-# [Stocks Simulator (version 2)](https://stocks-simulator.streamlit.app/)
+# [Market Analyzer (version 2)](https://stocks-simulator.streamlit.app/)
 
 ## [Streamlit Link To The Website](https://stocks-simulator.streamlit.app/)
 
